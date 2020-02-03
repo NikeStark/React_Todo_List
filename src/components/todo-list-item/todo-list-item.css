@@ -1,0 +1,64 @@
+.todo-list-item {
+    font-size: 1.25rem;
+  }
+  
+  .todo-list-item button {
+    width: 35px;
+    margin: 3px;
+    border-radius: 50%;
+  }
+  
+  .todo-list-item-label {
+    margin-left: 1.25rem;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    font-style: oblique;
+  }
+  
+  .todo-list-item.done .todo-list-item-label{
+    text-decoration: line-through;
+    color: red
+  }
+  
+  .todo-list-item.important .todo-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+  }
+
+  .btn-outline-danger {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-outline-danger .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: no-repeat center url(https://klike.net/uploads/posts/2019-06/1561182897_3.jpg);
+    color: #fff;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.btn-outline-danger .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.btn-outline-danger:hover .tooltiptext {
+    visibility: visible;
+}
