@@ -1,6 +1,6 @@
 .item-add-form button{
     padding: 3px 10px;
-    margin-top: 7px;
+    margin-top: 10px;
     border-radius: 7px;
     border: 3px solid #17A2B8;
     font-weight: bolder;
@@ -11,4 +11,13 @@
 .item-add-form button:hover{
     background-color: #17A2B8;
     color: greenyellow;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inp{
+    order: 1;
 }

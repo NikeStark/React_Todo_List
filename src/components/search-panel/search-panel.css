@@ -1,7 +1,7 @@
 .search-input {
     width: auto;
     flex-grow: 1;
-    margin-right: 3px;
+    margin-right: 12px;
     background: no-repeat center url(https://avatanplus.com/files/resources/original/572b3ec039e2d15480ed1eed.jpg);
     border: 1px solid rebeccapurple;
     border-radius: 30px;
